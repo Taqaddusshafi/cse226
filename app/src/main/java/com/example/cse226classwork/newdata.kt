@@ -1,4 +1,4 @@
 package com.example.cse226classwork
 
-class newdata {
+data class ItemsViewModel(val image: Int, val text: String) {
 }

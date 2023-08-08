@@ -9,7 +9,7 @@ import android.widget.Button
 import android.widget.CheckBox
 import android.widget.TextView
 
-class CustomAdapter(private val dataSet: ArrayList<DataModel>, mContext: Context) :
+class Custom(val dataSet: ArrayList<DataModel>, mContext: Context) :
     ArrayAdapter<DataModel>(mContext, R.layout.listview, dataSet) {
 
     private class ViewHolder {
