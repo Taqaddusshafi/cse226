@@ -27,6 +27,18 @@
             android:text="Item"
             android:textSize="20sp"
             android:textStyle="bold" />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/btndlt"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:backgroundTint="@color/cardview_light_background"
+            android:src="@drawable/delete" />
 
     </LinearLayout>
 
